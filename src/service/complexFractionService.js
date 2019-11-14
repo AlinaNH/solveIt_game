@@ -20,14 +20,14 @@ export default class complexFractionService {
     const dataForFindOneHalf = {
       amount: 6,
       minInteger: 0,
-      maxInteger: 13,
+      maxInteger: 9,
       minNumerator: 0,
       maxNumerator: 3
     };
     const dataForFindOneThird = {
       amount: 6,
       minInteger: 0,
-      maxInteger: 15,
+      maxInteger: 9,
       minNumerator: 0,
       maxNumerator: 3
     };
