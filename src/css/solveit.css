@@ -1,7 +1,7 @@
 /* MAIN PAGE */
 
 html {
-  height: 100%;
+  min-height: 100%;
   display: -webkit-flex;
   display: flex;
 }
@@ -16,7 +16,7 @@ body {
 }
 
 #content {
-  height: 100%;
+  min-height: 100%;
   min-width: 100%;
   font-family: "Audiowide", cursive;
   color: #0659ac;
@@ -28,7 +28,7 @@ body {
 }
 
 .context {
-  width: 100%;
+  min-width: 100%;
   position: absolute;
   top: 50vh;
 }
@@ -42,8 +42,8 @@ body {
 .area {
   background: #4e54c8;
   background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
-  width: 100%;
-  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -663,7 +663,7 @@ body {
   }
 
   .total {
-    margin-top: 20%;
+    margin-top: 25%;
   }
 
   .submitAnswer {
@@ -676,7 +676,8 @@ body {
   }
 
   .answerBlock {
-    margin-top: 0%;
+    margin-top: 13%;
+    width: 95%;
   }
 
   .properFractionsBlock {
